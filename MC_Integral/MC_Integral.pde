@@ -1,5 +1,5 @@
 // f(x) = ax^2 + bx + c
-// y = a * pow(x, 2) + b*x + c;
+// y = a * pow(x, 2) + b * x + c;
 
 float samples  = 1024 * 500;
 
@@ -30,7 +30,7 @@ float samples  = 1024 * 500;
     x = random(minX, maxX);
     y = random(minY, maxY);
 
-    float actY = a * pow(x, 2) + b*x + c;
+    float actY = a * pow(x, 2) + b * x + c;
 
     // checking
     if (y < actY){
@@ -51,7 +51,7 @@ float samples  = 1024 * 500;
 
 // output
  println("ok samples =", ok);
- println("notOk samples =", notOk);
+ println("not ok samples =", notOk);
  println("same samples =", sameSp);
  println("total samples =", totalSP);
  println("integral of f(x) =", integral);
